@@ -54,3 +54,8 @@ class App extends React.Component{
 }
 
 ReactDOM.render(<App/>, document.getElementById("app"));
+
+//npm start = starts server/index.js with nodemon
+//npm run dev = starts webpack watching the files in development mode (per package.json)
+//mongod = runs mongodb (possibly run "killall mongod" first)
+//mongo --host 127.0.0.1:27017 = connects mongo to the localhost
